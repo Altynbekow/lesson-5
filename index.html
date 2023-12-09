@@ -1,30 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: aqua;
+        }
+        .box {
+            width: 206px;
+            height: 200px;
+            background-color: red !important;
+            margin-bottom: 5px;
+            font-size: 45px;
+        }
+    
+    </style>
 </head>
+
 <body>
+    <div class="box"></div>
+    <script src="app.js">
+    
+        document.write('<div class="box"></div>');
+    </script>
+
+    <script>
+        function minus(num1, num2) {
+            let res = num1 - num2;
+            console.log(res);
+
+        }
+        minus(400, 200)
+        minus(4000, 200)
+        minus(40, 200)
+
+        function multiply(int1, int2) {
+            let res = int1 * int2;
+            console.log(res);
+        }
+
+        multiply(45, 45)
+
+        function divide(div1, div2) {
+            let res = div1 / div2;
+            console.log(res);
+        }
+        divide(9500, 450)
+        
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <script src="app.js"></script> 
+        </script>
+        
+        
 </body>
-</html>
+</html
